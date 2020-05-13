@@ -33,10 +33,17 @@ $('p').css({
 });
 
 // scroll
-$(document).on('scroll', function(){
-    var distancia = $(this).scrollTop();
-    // $('.modal').css('height', distancia * 10 + 'px');
-    console.log(distancia);
-});
+//$(document).on('scroll', function(){
+//    var distancia = $(this).scrollTop();
+//    // $('.modal').css('height', distancia * 10 + 'px');
+//    console.log(distancia);
+//});
+
+$(window).scroll(function(){
+    var scrollTop = $(this).scrollTop();
+    console.log(scrollTop);
+})
+
+
 
 

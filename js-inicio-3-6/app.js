@@ -25,12 +25,12 @@
 // console.log(psize);
 
 // set
-$('p').css({
-    'font-size' : '18px',
-    'font-family' : 'verdana',
-    'color' : 'blue',
-    'background-color' : 'yellow'
-});
+//$('p').css({
+//    'font-size' : '18px',
+//    'font-family' : 'verdana',
+//    'color' : 'blue',
+//    'background-color' : 'yellow'
+//});
 
 // scroll
 //$(document).on('scroll', function(){
@@ -39,10 +39,12 @@ $('p').css({
 //    console.log(distancia);
 //});
 
-$(window).scroll(function(){
-    var scrollTop = $(this).scrollTop();
-    console.log(scrollTop);
-})
+//$(window).scroll(function(){
+//    var scrollTop = $(this).scrollTop();
+//    console.log(scrollTop);
+//})
+
+
 
 
 

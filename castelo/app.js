@@ -34,6 +34,17 @@
 //    $('a').text($(body).width());  
 //});
 
+// animate I
+//$('a').click(function(){
+//    $('.modal').animate({
+//        opacity:'toggle',
+//        height:0
+//    }, 500);
+//});
+
+
+
+
 
 
 

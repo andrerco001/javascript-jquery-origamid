@@ -42,6 +42,50 @@
 //    }, 500);
 //});
 
+// animate II
+// fideOut
+//$('.btn').click(function(){
+//    $('.modal').fadeOut(1000);
+//});
+
+// fideIn
+//$('.abrir-modal').click(function(){
+//    $('.modal').fadeIn(1000);
+//});
+
+// hide
+//$('.btn').click(function(){
+//    $('.modal').hide();
+//});
+
+// show
+//$('.abrir-modal').click(function(){
+//    $('.modal').show();
+//});
+
+// slideUp
+//$('.btn').click(function(){
+//    $('.modal').slideUp();
+//});
+
+// slideDown
+//$('.abrir-modal').click(function(){
+//    $('.modal').slideDown();
+//});
+
+// slideToggle
+//$('a').click(function(){
+//    $('.modal').slideToggle(function(){
+//        $('a').css('margin', '50px');
+//    });
+//});
+
+$('a').click(function(){
+    $('.modal').slideToggle();
+});
+
+
+
 
 
 
